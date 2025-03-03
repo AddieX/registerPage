@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+    />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <title>Create Account Mock | Addie</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="language-selector">
+        <button class="language-btn">
+          <span class="flag-icon flag-icon-us"></span> EN
+          <span class="arrow">▼</span>
+        </button>
+        <div class="language-dropdown">
+          <a href="#" data-lang="en" class="active"
+            ><span class="flag-icon flag-icon-us"></span> English</a
+          >
+          <a href="#" data-lang="fr"
+            ><span class="flag-icon flag-icon-fr"></span> Français</a
+          >
+          <a href="#" data-lang="es"
+            ><span class="flag-icon flag-icon-es"></span> Español</a
+          >
+          <a href="#" data-lang="de"
+            ><span class="flag-icon flag-icon-de"></span> Deutsch</a
+          >
+          <a href="#" data-lang="ar"
+            ><span class="flag-icon flag-icon-iq"></span> العربية</a
+          >
+          <a href="#" data-lang="zh"
+            ><span class="flag-icon flag-icon-cn"></span> 中文</a
+          >
+          <a href="#" data-lang="ja"
+            ><span class="flag-icon flag-icon-jp"></span> 日本語</a
+          >
+          <a href="#" data-lang="ru"
+            ><span class="flag-icon flag-icon-ru"></span> Русский</a
+          >
+          <a href="#" data-lang="pt"
+            ><span class="flag-icon flag-icon-pt"></span> Português</a
+          >
+          <a href="#" data-lang="it"
+            ><span class="flag-icon flag-icon-it"></span> Italiano</a
+          >
+        </div>
+      </div>
+      <h1
+        data-en="Create Account"
+        data-fr="Créer un Compte"
+        data-es="Crear Cuenta"
+        data-de="Konto Erstellen"
+        data-ar="إنشاء حساب"
+        data-zh="创建账户"
+        data-ja="アカウント作成"
+        data-ru="Создать аккаунт"
+        data-pt="Criar Conta"
+        data-it="Crea Account"
+      >
+        Create Account
+      </h1>
+      <form action="index.html" method="post">
+        <div class="name-row">
+          <div class="input-group">
+            <label
+              for="first_name"
+              data-en="First Name"
+              data-fr="Prénom"
+              data-es="Nombre"
+              data-de="Vorname"
+              data-ar="الاسم الأول"
+              data-zh="名字"
+              data-ja="名"
+              data-ru="Имя"
+              data-pt="Primeiro Nome"
+              data-it="Nome"
+              >First Name</label
+            >
+            <input type="text" id="first_name" minlength="3" required />
+          </div>
+          <div class="input-group">
+            <label
+              for="last_name"
+              data-en="Last Name"
+              data-fr="Nom de Famille"
+              data-es="Apellido"
+              data-de="Nachname"
+              data-ar="اسم العائلة"
+              data-zh="姓氏"
+              data-ja="姓"
+              data-ru="Фамилия"
+              data-pt="Sobrenome"
+              data-it="Cognome"
+              >Last Name</label
+            >
+            <input type="text" id="last_name" required />
+          </div>
+        </div>
+
+        <div class="password-row">
+          <div class="input-group">
+            <label
+              for="account_password"
+              data-en="Password"
+              data-fr="Mot de Passe"
+              data-es="Contraseña"
+              data-de="Passwort"
+              data-ar="كلمة المرور"
+              data-zh="密码"
+              data-ja="パスワード"
+              data-ru="Пароль"
+              data-pt="Senha"
+              data-it="Password"
+              >Password</label
+            >
+            <input
+              type="password"
+              minlength="6"
+              id="account_password"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label
+              for="confirm_password"
+              data-en="Confirm Password"
+              data-fr="Confirmer le Mot de Passe"
+              data-es="Confirmar Contraseña"
+              data-de="Passwort Bestätigen"
+              data-ar="تأكيد كلمة المرور"
+              data-zh="确认密码"
+              data-ja="パスワードを確認"
+              data-ru="Подтвердить Пароль"
+              data-pt="Confirmar Senha"
+              data-it="Conferma Password"
+              >Confirm Password</label
+            >
+            <input
+              type="password"
+              minlength="6"
+              id="confirm_password"
+              required
+            />
+          </div>
+        </div>
+
+        <label
+          for="account_email"
+          data-en="Enter Email"
+          data-fr="Entrez Email"
+          data-es="Introducir Email"
+          data-de="E-Mail Eingeben"
+          data-ar="أدخل البريد الإلكتروني"
+          data-zh="输入电子邮箱"
+          data-ja="メールアドレスを入力"
+          data-ru="Введите Email"
+          data-pt="Digite o Email"
+          data-it="Inserisci Email"
+          >Enter Email</label
+        >
+        <input type="email" id="account_email" required />
+
+        <input
+          type="submit"
+          value="Create Account"
+          data-en="Create Account"
+          data-fr="Créer un Compte"
+          data-es="Crear Cuenta"
+          data-de="Konto Erstellen"
+          data-ar="إنشاء حساب"
+          data-zh="创建账户"
+          data-ja="アカウント作成"
+          data-ru="Создать аккаунт"
+          data-pt="Criar Conta"
+          data-it="Crea Account"
+        />
+        <input
+          type="reset"
+          value="Reset"
+          data-en="Reset"
+          data-fr="Réinitialiser"
+          data-es="Restablecer"
+          data-de="Zurücksetzen"
+          data-ar="إعادة تعيين"
+          data-zh="重置"
+          data-ja="リセット"
+          data-ru="Сбросить"
+          data-pt="Redefinir"
+          data-it="Reimposta"
+        />
+      </form>
+      <footer class="copyright">
+        <span
+          data-en="&copy; 2025 Addie. All rights reserved."
+          data-fr="&copy; 2025 Addie. Tous droits réservés."
+          data-es="&copy; 2025 Addie. Todos los derechos reservados."
+          data-de="&copy; 2025 Addie. Alle Rechte vorbehalten."
+          data-ar="&copy; 2025 Addie. جميع الحقوق محفوظة."
+          data-zh="&copy; 2025 Addie. 保留所有权利。"
+          data-ja="&copy; 2025 Addie. 全著作権所有。"
+          data-ru="&copy; 2025 Addie. Все права защищены."
+          data-pt="&copy; 2025 Addie. Todos os direitos reservados."
+          data-it="&copy; 2025 Addie. Tutti i diritti riservati."
+          >&copy; 2025 Addie. All rights reserved.</span
+        ><br />
+        <a
+          href="mailto:addie@gmail.com"
+          class="email-link"
+          data-en="Email Me"
+          data-fr="Envoyez-moi un Email"
+          data-es="Envíame un Email"
+          data-de="E-Mail an Mich"
+          data-ar="راسلني"
+          data-zh="给我发邮件"
+          data-ja="メールを送る"
+          data-ru="Написать Мне"
+          data-pt="Envie-me um Email"
+          data-it="Mandami un'Email"
+          >Email Me</a
+        >
+      </footer>
+    </div>
+
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
