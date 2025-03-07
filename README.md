@@ -198,18 +198,10 @@ This form follows WCAG 2.1 AA guidelines including:
 - Additional localization features (date formats, number formats)
 - Dark mode support
 
-## License
-
-© 2025 Addie. All rights reserved.
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 ---
 
 Made with ❤️ by [Addie](https://github.com/AddieX)
-
-_This project was created as a demonstration of multilingual form design and implementation using best practices in web accessibility and user experience._
