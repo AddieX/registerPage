@@ -198,18 +198,6 @@ This form follows WCAG 2.1 AA guidelines including:
 - Additional localization features (date formats, number formats)
 - Dark mode support
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please ensure your code follows the existing style and includes appropriate documentation.
-
 ## License
 
 © 2025 Addie. All rights reserved.
