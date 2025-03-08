@@ -1,13 +1,9 @@
 # Create Account Portal - Multilingual
 
-<div align="center">
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language Count](https://img.shields.io/badge/languages-10-blue.svg)](README.md)
 
 A modern, responsive account creation form with comprehensive multilingual support designed for global accessibility.
-
-</div>
 
 ## ✨ Key Features
 
