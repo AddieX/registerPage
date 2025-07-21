@@ -123,8 +123,8 @@ The application has been tested and works on:
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/yourusername/createAccount-v2.git
-   cd createAccount-v2
+   git clone https://github.com/yourusername/registerPage.git
+   cd registerPage
    ```
 
 2. No build process is required! The application is pure HTML/CSS/JS.
